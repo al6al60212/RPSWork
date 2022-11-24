@@ -13,6 +13,8 @@
 		CBA31737292F2D8800F8F8CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA31735292F2D8800F8F8CD /* Main.storyboard */; };
 		CBA31739292F2D8900F8F8CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA31738292F2D8900F8F8CD /* Assets.xcassets */; };
 		CBA3173C292F2D8900F8F8CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA3173A292F2D8900F8F8CD /* LaunchScreen.storyboard */; };
+		CBA31744292F2E3400F8F8CD /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA31743292F2E3400F8F8CD /* Sign.swift */; };
+		CBA31746292F2E4400F8F8CD /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA31745292F2E4400F8F8CD /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CBA31738292F2D8900F8F8CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBA3173B292F2D8900F8F8CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBA3173D292F2D8900F8F8CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA31743292F2E3400F8F8CD /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		CBA31745292F2E4400F8F8CD /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				CBA31731292F2D8800F8F8CD /* SceneDelegate.swift */,
 				CBA31733292F2D8800F8F8CD /* ViewController.swift */,
 				CBA31735292F2D8800F8F8CD /* Main.storyboard */,
+				CBA31743292F2E3400F8F8CD /* Sign.swift */,
+				CBA31745292F2E4400F8F8CD /* GameState.swift */,
 				CBA31738292F2D8900F8F8CD /* Assets.xcassets */,
 				CBA3173A292F2D8900F8F8CD /* LaunchScreen.storyboard */,
 				CBA3173D292F2D8900F8F8CD /* Info.plist */,
@@ -140,6 +146,8 @@
 			files = (
 				CBA31734292F2D8800F8F8CD /* ViewController.swift in Sources */,
 				CBA31730292F2D8800F8F8CD /* AppDelegate.swift in Sources */,
+				CBA31746292F2E4400F8F8CD /* GameState.swift in Sources */,
+				CBA31744292F2E3400F8F8CD /* Sign.swift in Sources */,
 				CBA31732292F2D8800F8F8CD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
